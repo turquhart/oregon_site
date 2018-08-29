@@ -1,0 +1,66 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+/*body{
+	padding-left: 200px;
+	padding-right: 200px;
+	
+}*/
+
+.container-fluid{
+	border: solid #28a745 10px; 
+	padding: 0;
+}
+
+.imgfit{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.container{
+	padding-top: 30px;
+	padding-left: 50px;
+}
+
+.col-sm{
+	text-align: left;
+}
+
+.banner{
+	font-family: rock salt, cursive;
+	font-size: 45px;
+}
+
+.btn{
+	float: right;
+}
+
+
+/*width:100%;
+	height: 400px;
+	background-image: url("198.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+
+/*.container {
+    background-image: url("198.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+h1{
+	color: white;
+}*/
